@@ -1,4 +1,5 @@
-Etch-A-Sketch project
+# Etch-A-Sketch
+**Sketchpad built using HTML, CSS, and JavaScript.**
+**[Link](https://ncaron.github.io/etch-a-sketch/)**
 
-https://salimus.github.io/etchAsketch/
-https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project
+This is a project from **[The Odin Project](https://www.theodinproject.com).**
