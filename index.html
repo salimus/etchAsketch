@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Etch-A-Sketch project</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+</head>
+<body>
+	<p class="font-weight-bold">Etch-A-Sketch</p>
+	
+	<div class="reset">
+		<label class="font-weight-bold">Grid Size</label>
+		<input id="gridSize" type="number" value="50" min="0" max="100">
+		<button class="font-weight-bold" id="reset" onclick="resetGrid()">Reset</button>
+	</div>
+	<div class="black_multicolor">
+		<button id="multicolor" class="multiColor font-weight-bold" onclick="multiColor()">Black / Multicolor</button>
+	</div>
+	
+	<div id="container" class="container"></div>
+</body>
+<script type="text/javascript" src='script.js'></script>
+</html>
